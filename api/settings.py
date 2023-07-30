@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-hvvg6$-@o7%w7bcci*n7!7wg32q%axym2ov%fr@dls)vt%#*%d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["https://linkedin-clone-api.netlify.app/","127.0.0.1"]
+ALLOWED_HOSTS = ["localhost","VarunAC.pythonanywhere.com"]
 
 
 # Application definition
@@ -125,6 +125,9 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 CORS_ORIGIN_ALLOW_ALL = True
+# CORS_ORIGIN_WHITELIST = [
+#     'http://localhost:3000',
+# ]
 
 
 # Internationalization
